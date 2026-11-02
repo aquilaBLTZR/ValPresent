@@ -14,7 +14,7 @@ https://aquilaBLTZR.github.io/ValPresent/
 - Green border marks the live VJ loop.
 - Upload up to 10 MP4 VJ loops, limited to 25 MB each. Thumbnail previews and video files are stored locally in the browser.
 - VJ transitions: FADE, CUT, FTB, FTW; choose editable duration presets and switch them with A/S/D.
-- Playlist with saved songs and per-song lyric lists.
+- Playlist with saved songs and per-song lyric lists. Right-click a playlist song to edit or delete it.
 - New Song editor with name, paste area, conservative Auto-separate, Save and Cancel.
 - Font previews, bold, italic, drop shadow, color palette, custom color, and six lyric animation presets: Fade, Ascend, Z In/Out, and AZ In/Out. One speed slider controls the timing of every animation preset.
 - Z shows lyrics with the selected entrance animation; X hides them. Lyrics stay hidden on startup until shown.
