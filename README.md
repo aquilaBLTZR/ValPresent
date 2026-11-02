@@ -7,12 +7,12 @@ The app is available at:
 https://aquilaBLTZR.github.io/ValPresent/
 
 ## Features
-- A single live Output lyric display with a 1920 × 1080 (16:9) reference frame.
+- A single live Output lyric display with a 1920 × 1080 (16:9) reference frame. The workspace fits the screen, with scrolling inside panels.
 - Fresh installations start with an empty playlist; add songs through the New Song dialog.
 - Drag dividers to resize the Playlist, Output workspace, Lyrics Settings, and transition/lyric panels. The Output stays 16:9 as it scales. Pane sizes persist locally and enforce minimum sizes.
 - Up/Down and lyric list clicks change the live lyric directly; VJ loop keys and tiles change the live loop independently.
 - Green border marks the live VJ loop.
-- Upload up to 10 MP4 VJ loops, limited to 25 MB each. Thumbnail previews and video files are stored locally in the browser.
+- Add up to 10 MP4 VJ loops, limited to 25 MB each, as individual videos or folder-based groups. Thumbnails and videos stay in local browser storage; right-click a loop to delete it.
 - VJ transitions: FADE, CUT, FTB, FTW; choose editable duration presets and switch them with A/S/D.
 - Playlist with saved songs and per-song lyric lists. Right-click a playlist song to edit or delete it.
 - New Song editor with name, paste area, conservative Auto-separate, Save and Cancel.
