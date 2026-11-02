@@ -2,12 +2,14 @@
 
 A browser-based lyrics and VJ presentation controller prototype.
 
-## Preview
-After GitHub Pages is enabled, the app will be available at:
+## Live preview
+The app is available at:
 https://aquilaBLTZR.github.io/ValPresent/
 
 ## Features
-- A single live Output lyric display.
+- A single live Output lyric display with a 1920 × 1080 (16:9) reference frame.
+- Fresh installations start with an empty playlist; add songs through the New Song dialog.
+- Drag the dividers to resize the Playlist, Output workspace, Lyrics Settings, and transition/lyric panels. Pane widths persist locally and enforce minimum sizes.
 - Up/Down and lyric list clicks change the live lyric directly; VJ loop keys and tiles change the live loop independently.
 - Green border marks the live VJ loop.
 - FADE, CUT, FTB and FTW VJ transition modes.
