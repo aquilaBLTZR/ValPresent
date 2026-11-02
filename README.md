@@ -15,7 +15,7 @@ https://aquilaBLTZR.github.io/ValPresent/
 - New Song editor with name, paste area, conservative Auto-separate, Save and Cancel.
 - Font, bold, italic, drop shadow, color palette and custom color.
 - Lyrics and settings persist in browser local storage.
-- Keyboard: Space = take live; Up/Down = move Preview lyric.
+- Keyboard: Space = take live; Up/Down = move Preview lyric; 1–9 and 0 = select VJ loops 1–10; Q/W/E/R = FADE/CUT/FTB/FTW.
 
 ## GitHub Pages
 In the repository, open **Settings → Pages**, choose **GitHub Actions** as the build and deployment source, then save. The included workflow deploys the repository root.
