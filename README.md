@@ -16,7 +16,7 @@ https://aquilaBLTZR.github.io/ValPresent/
 - VJ transitions: FADE, CUT, FTB, FTW; choose editable duration presets and switch them with A/S/D.
 - Playlist with saved songs and per-song lyric lists.
 - New Song editor with name, paste area, conservative Auto-separate, Save and Cancel.
-- Font previews, bold, italic, drop shadow, color palette, custom color, and six lyric animation presets: Fade, Ascend, Z In/Out, and AZ In/Out.
+- Font previews, bold, italic, drop shadow, color palette, custom color, and six lyric animation presets: Fade, Ascend, Z In/Out, and AZ In/Out. One speed slider controls the timing of every animation preset.
 - Z shows lyrics with the selected entrance animation; X hides them. Lyrics stay hidden on startup until shown.
 - Remove Markers removes section headings such as Verse, Chorus, Bridge, and Coda from pasted lyrics.
 - Lyrics and settings persist in browser local storage.
