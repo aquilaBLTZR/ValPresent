@@ -60,6 +60,63 @@ button:hover{border-color:#b28b3f;background-color:#29241a}
 .duration-card{background:#101215}
 .duration-edit{background:#0b0d10;border-color:#44403a}
 
+
+/* Refined low-glare palette: graphite first, restrained brass accents. */
+:root{
+ --bg:#0c0d0f;--panel:#141619;--panel2:#1a1c20;--well:#0f1114;
+ --line:#303338;--blue:#79643a;--blue-hi:#b49a63;--cyan:#b49a63;
+ --text:#e3e2dc;--muted:#96958e;--green:#48bd83;--red:#df7777;
+}
+body{background:#0c0d0f;color:#e3e2dc}
+.panel{background:#141619;border-color:#303338;box-shadow:0 5px 18px #0005}
+.side-title,.section,.settings h3,.songlines h3{color:#aaa79e}
+.brand{color:#e7e5de}
+.labels{color:#b49a63}
+.stage{background:#101215;border-color:#303338}
+.screen{border-color:#393b3e}
+.song,.lyric,.pill,.font,.setting,.loop-group,.duration-card,.shortcut-groups section{
+ background:#101215;border-color:#303338
+}
+.song.active,.lyric.active{
+ background:#25272a;border-color:#8f794d;color:#f0eee7
+}
+.add,.loop-import{
+ background:#191a1c;border-color:#45413a;color:#d2c5a4
+}
+.pill.selected,.choice.on,.toggle.on,.lyrics-visibility button.active,.lyric-preset.selected,.duration-pick.selected{
+ background:#292720;border-color:#89764f;color:#e5d9bd
+}
+.loop{background-color:#202226;border-color:#414348}
+.loop:nth-child(3n){background:#1b1e21}
+.loop.live{border-color:#48bd83;box-shadow:inset 0 0 0 1px #48bd83}
+.loop.pending{border-color:#e49a45;box-shadow:inset 0 0 0 1px #e49a45}
+.loop.plus{background:#101215;color:#aaa79e}
+.lyrics-state.visible{color:#48bd83}
+.lyrics-state.hiding{color:#e49a45}
+.motion-range,.animation-speed input{accent-color:#b49a63}
+.motion-block output,.animation-speed output,.shortcut-groups h3{color:#b49a63}
+.swatch.on{outline-color:#b49a63}
+.color-control{background:#101215;border-color:#303338}
+.modalbg{background:#020304d9}
+.modal{background:#17191c;border-color:#45413a}
+.action{background:#51452c;border-color:#796744;color:#eee7d8}
+.action:hover{background:#625337;border-color:#9c8455}
+.action.dark{background:#1b1d20;border-color:#3b3e42;color:#d6d4cc}
+.action.dark:hover{background:#25272a;border-color:#77705f}
+.name,.lyricsinput{background:#0f1114;border-color:#393c40;color:#e3e2dc}
+.name:focus{border-color:#a18b5d}
+.toast{background:#202226;border-color:#6e6249;color:#e7e1d3}
+.song-menu{background:#17191c;border-color:#414348}
+.song-menu button:hover{background:#26282b}
+.shortcut-groups kbd{background:#202124;border-color:#44413a;color:#e3e0d7}
+.shortcut-row{border-top-color:#303338}
+.loop-group-title{color:#aaa79d}
+.duration-edit{background:#0f1114;border-color:#3c3f42}
+button:hover{border-color:#80704f;background-color:#252522}
+.splitter{background:#303338}
+.splitter:hover,.splitter.dragging{background:#9a8558}
+.caption,.setting small,.gradient-help,.shortcut-intro,.shortcut-note{color:#99978e}
+
 </style></head><body><div class="app">
 <aside class="panel sidebar"><div class="side-title">PLAYLIST</div><div class="songs" id="songs"></div><button class="add" id="new">＋ Add Songs</button><button class="add load-songs" id="loadSongsButton">⇧ Load Songs</button></aside><div class="splitter vertical" id="split-playlist" role="separator" aria-label="Resize playlist" aria-orientation="vertical" tabindex="0"></div>
 <main class="main"><header class="top"><div class="brand">VPresenter <small class="version">1.0</small></div><div class="top-actions"><button class="action dark" id="projectOutput" type="button">PROJECT OUTPUT</button><button class="action dark" id="openShortcuts" type="button">SHORTCUTS · ⇧S</button></div><div class="labels"><span>OUTPUT</span><small class="output-meta">1920 × 1080 · 16:9</small></div></header>
