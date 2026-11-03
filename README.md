@@ -7,7 +7,7 @@ The app is available at:
 https://aquilaBLTZR.github.io/ValPresent/
 
 ## Features
-- A single live Output lyric display with a 1920 × 1080 (16:9) reference frame. The workspace fits the screen, with scrolling inside panels.
+- A single live Output lyric display with a 1920 × 1080 (16:9) reference frame. Playlist, Output, Lyrics, and Lyrics Settings stay within the screen; long lists scroll inside their panels.
 - Fresh installations start with an empty playlist; add songs through the New Song dialog.
 - Drag dividers to resize the Playlist, Output workspace, Lyrics Settings, and transition/lyric panels. The Output stays 16:9 as it scales. Pane sizes persist locally and enforce minimum sizes.
 - Up/Down and lyric list clicks change the live lyric directly; VJ loop keys and tiles change the live loop independently.
@@ -16,7 +16,7 @@ https://aquilaBLTZR.github.io/ValPresent/
 - VJ transitions: FADE, CUT, FTB, FTW; choose editable duration presets and switch them with A/S/D.
 - Playlist with saved songs and per-song lyric lists. Right-click a playlist song to edit or delete it.
 - New Song editor with name, paste area, conservative Auto-separate, Save and Cancel.
-- Font previews, bold, italic, drop shadow, color palette, custom color, and six lyric animation presets: Fade, Ascend, Z In/Out, and AZ In/Out. One speed slider controls the timing of every animation preset.
+- Font previews, bold, italic, drop shadow, color palette, custom color, and separate Transition-in, Movement, and Transition-out controls with individual millisecond sliders.
 - Z shows lyrics with the selected entrance animation; X hides them. Lyrics stay hidden on startup until shown.
 - Remove Markers removes section headings such as Verse, Chorus, Bridge, and Coda from pasted lyrics.
 - Lyrics and settings persist in browser local storage.
