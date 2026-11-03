@@ -1,0 +1,48 @@
+{
+  "name": "valpresent",
+  "version": "1.0.0",
+  "description": "ValPresent desktop presentation and VJ application",
+  "main": "electron/main.cjs",
+  "author": "ValPresent",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "electron .",
+    "dist:win": "electron-builder --win nsis",
+    "dist:win:portable": "electron-builder --win portable"
+  },
+  "devDependencies": {
+    "electron": "^44.0.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.valpresent.desktop",
+    "productName": "ValPresent",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "index.html",
+      "electron/**/*",
+      "package.json"
+    ],
+    "asar": true,
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "ValPresent"
+    }
+  }
+}
