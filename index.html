@@ -118,13 +118,11 @@ button:hover{border-color:#80704f;background-color:#252522}
 .caption,.setting small,.gradient-help,.shortcut-intro,.shortcut-note{color:#99978e}
 
 
-/* Five-times larger lyric preview in the main control window; text effects remain intact. */
-body:not(.output-mode):not(.output-connected) .screen-text{font-size:clamp(60px,12.5cqw,200px)}
 /* Connected Project Output: keep the control window lyric-focused and stop its VJ preview. */
 body.output-connected .stage{height:430px!important;min-height:360px;flex:0 0 430px;padding:9px;gap:9px;background:#101215}
 body.output-connected .screen{width:auto;height:100%;max-width:none;min-width:0;aspect-ratio:16/9;flex:1 1 auto;border-color:#34383d;background:#080a0d}
 body.output-connected .vj-output{display:none!important}
-body.output-connected .screen-text{font-size:clamp(12px,2.1cqw,26px);max-width:94%;max-height:90%;overflow:hidden}
+body.output-connected .screen-text{font-size:clamp(60px,10.5cqw,130px);max-width:94%;max-height:90%;overflow:hidden}
 body.output-connected .vj-still-monitor{display:flex;flex:0 0 var(--vj-monitor-width,60%);width:var(--vj-monitor-width,60%)}
 body.output-connected .vj-monitor-splitter{display:block}
 body.output-connected .output-meta::after{content:" · OUTPUT ACTIVE"}
